@@ -1,4 +1,4 @@
-name: Run Script Dev
+name: Full Export
 
 on:
   workflow_dispatch:
@@ -6,10 +6,6 @@ on:
         environment:
             description: 'Environment to run tests against'
             type: environment
-            required: true
-        productSku:
-            description: 'Product SKU to run tests against'
-            type: string
             required: true
   push:
     branches: [ master ]
@@ -68,4 +64,4 @@ jobs:
         run: pip install -i https://test.pypi.org/simple/ akeneo
       - name: Run Script
         working-directory: ./src
-        run: python singleExport.py ${{ inputs.productSku }}
+        run: python fullExport.py
