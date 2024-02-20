@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pois xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.outdooractive.com/api/schema/alp.interface" xsi:schemaLocation="http://www.outdooractive.com/api/schema/alp.interface alp.interface.pois.xsd">
+	<source>tso-emag</source>
+	<owner>pim-emag</owner>
+		<poi id="c56c2802-a209-45a0-8452-645c6a1dff43" workflow="online" lastmodified="2023-04-04 11:22:29">
+					<owner>pim-emag</owner>
+			<categories>
+								<category>restaurant</category>
+							</categories>
+			<point>46.927311646748194 7.73489534854889</point>
+			<contact>
+				<address>
+					 
+						<street>Eggiwilstrasse 76</street>
+										 
+						<municipality>Schüpbach</municipality>
+										 
+						<postalcode>3535</postalcode>
+									</address>
+				 
+				<tel>+41 34 497 11 07</tel>
+												 
+				<url>http://www.kreuz-schuepbach.ch/</url>
+							</contact>
+			<attributes>
+								<context id="default">
+    </context>
+			</attributes>
+			<descriptions>
+				<description lang="de">
+					<title>Restaurant Kreuz, Schüpbach</title>
+					<abstract>Herzlich Willkommen im heimeligen Restaurant Kreuz in Schüpbach im Emmental.</abstract>					<text>Gaststube &amp; Gartenwirtschaft
+In der gemütlichen Gaststube geniessen Sie währschafte Küche und werden vom herzlichen Gastgeberteam verwöhnt. Bei schönem Wetter können Sie es sich auf der Gartenterrasse gut gehen lassen und geniessen neben dem Sonnenschein ein leckeres Menü des Küchenteams.
+
+Bankett
+Feiern Sie ihren Anlass im Kreuz: Ob Hochzeit, Firmenfeier, Taufe oder Seminar - in den verschiedenen Bankett- und Seminarräumen oder dem Saal finden die Gastgeber für jeden Event die perfekte Räumlichkeit. 
+
+Anreise
+Sie erreichen das Kreuz Schüpbach von Langnau in 10 Minuten, von Worb in 20 Minuten und von Burgdorf in 30 Minuten mit dem Auto. Mit dem öffentlichen Verkehr fahren Sie mit dem Zug nach Signau und sind ab da mit dem Bus in 3 Minuten in Schüpbach.
+
+Freizeit
+- Radeln Sie entlang der Herzschlaufe Langnau und machen Sie Rast im Restaurant Kreuz in Schüpbach.</text>				</description>
+				<description lang="en">
+					<title/>
+														</description>
+			</descriptions>
+			<images>
+
+                    <image id="bb1a7585ff0f92e1703573f00c8aea8ac7a4e73c_Kreuz_Schuepbach_Web1" src="https://emagpimtsoch.sos-ch-dk-2.exoscale-cdn.com/catalog/b/b/1/a/bb1a7585ff0f92e1703573f00c8aea8ac7a4e73c_Kreuz_Schuepbach_Web1.jpeg">
+            <point>46.927311646748194 7.73489534854889</point>
+            <source>Erlebnismacher AG</source>
+                                </image>
+            
+<image id="6704f6f39d21088cf21a5dd4b836b03ea4a06211_Restaurant_Kreuz_Schuepbach_Fleischgericht_Web" src="https://emagpimtsoch.sos-ch-dk-2.exoscale-cdn.com/catalog/6/7/0/4/6704f6f39d21088cf21a5dd4b836b03ea4a06211_Restaurant_Kreuz_Schuepbach_Fleischgericht_Web.jpeg">
+    <point>46.927311646748194 7.73489534854889</point>
+    <source>Erlebnismacher AG</source>
+        </image>
+
+<image id="4d501d9d61c2d61285ae91c17ddd63a26d5efe18_Restaurant_Kreuz_Schuepbach_Gaststube_Web1" src="https://emagpimtsoch.sos-ch-dk-2.exoscale-cdn.com/catalog/4/d/5/0/4d501d9d61c2d61285ae91c17ddd63a26d5efe18_Restaurant_Kreuz_Schuepbach_Gaststube_Web1.jpeg">
+    <point>46.927311646748194 7.73489534854889</point>
+    <source>Erlebnismacher AG</source>
+        </image>
+
+<image id="5fc8dbce86e25b1637108f3411f58ba37950f693_Kreuz_Schuepbach_Web4" src="https://emagpimtsoch.sos-ch-dk-2.exoscale-cdn.com/catalog/5/f/c/8/5fc8dbce86e25b1637108f3411f58ba37950f693_Kreuz_Schuepbach_Web4.jpeg">
+    <point>46.927311646748194 7.73489534854889</point>
+    <source>Erlebnismacher AG</source>
+        </image>
+
+<image id="da2944bfd76b5bb1e292a2d1ef6abd0ead55ece6_Restaurant_Kreuz_Schuepbach_Jukebox_Weinfass_Web" src="https://emagpimtsoch.sos-ch-dk-2.exoscale-cdn.com/catalog/d/a/2/9/da2944bfd76b5bb1e292a2d1ef6abd0ead55ece6_Restaurant_Kreuz_Schuepbach_Jukebox_Weinfass_Web.jpeg">
+    <point>46.927311646748194 7.73489534854889</point>
+    <source>Erlebnismacher AG</source>
+        </image>
+
+<image id="8be91c2d574d1345f12c71a51b464c7bf85f8ad7_Restaurant_Kreuz_Schuepbach_Gaststube_Web2" src="https://emagpimtsoch.sos-ch-dk-2.exoscale-cdn.com/catalog/8/b/e/9/8be91c2d574d1345f12c71a51b464c7bf85f8ad7_Restaurant_Kreuz_Schuepbach_Gaststube_Web2.jpeg">
+    <point>46.927311646748194 7.73489534854889</point>
+    <source>Erlebnismacher AG</source>
+        </image>
+
+
+
+
+
+</images>
+
+				</poi>
+		<poi id="c7aa8f09-7f5f-4f59-8471-8f34aea503f2" workflow="offline" lastmodified="2023-08-02 11:41:51">
+					<owner>pim-emag</owner>
+			<categories>
+								<category>museum</category>
+							</categories>
+			<point>46.815034 7.216971</point>
+			<contact>
+				<address>
+					 
+						<street>Kirchweg 2</street>
+										 
+						<municipality>Tafers</municipality>
+										 
+						<postalcode>1712</postalcode>
+									</address>
+				 
+				<tel>+41 26 494 25 31</tel>
+												 
+				<url>http://www.senslermuseum.ch</url>
+							</contact>
+			<attributes>
+											</attributes>
+			<descriptions>
+				<description lang="de">
+					<title>Sensler Museum</title>
+										<text>Kleiner kultureller Abstecher ins Sensler Museum? Im Dorfkern von Tafers steht das Sigristenhaus von 1780, welches das Museum zum Sensebezirk beherbergt. Das Holzhaus alleine ist schon einen Besuch wert. Die Besucher erfahren allerhand zur Region. Sie möchten zum Beispiel Lieder auf Senslerdeutsch hören? Unser Musikraum bietet Musik aus mehr als 150 Jahren Sensler Musikgeschichte. «Aaggugge ù yytouche» ist Motto!</text>				</description>
+				<description lang="en">
+					<title/>
+														</description>
+			</descriptions>
+			<images>
+
+                    <image id="a54e8d19ef99ef3f00e282f589a12e38505d524a_Sensler_Museum_Tafers1" src="https://emagpimtsoch.sos-ch-dk-2.exoscale-cdn.com/catalog/a/5/4/e/a54e8d19ef99ef3f00e282f589a12e38505d524a_Sensler_Museum_Tafers1.jpg">
+            <point>46.815034 7.216971</point>
+            <source>Erlebnismacher AG</source>
+                                </image>
+            
+<image id="148f1947c8c48722a520d9d972d161fc85122b7c_Tafers_Sensler_Museum_1" src="https://emagpimtsoch.sos-ch-dk-2.exoscale-cdn.com/catalog/1/4/8/f/148f1947c8c48722a520d9d972d161fc85122b7c_Tafers_Sensler_Museum_1.jpg">
+    <point>46.815034 7.216971</point>
+    <source>Erlebnismacher AG</source>
+        </image>
+
+<image id="cf6d2187b5d08798748dcc9d4fdef401708a9746_Tafers_Sensler_Museum_4" src="https://emagpimtsoch.sos-ch-dk-2.exoscale-cdn.com/catalog/c/f/6/d/cf6d2187b5d08798748dcc9d4fdef401708a9746_Tafers_Sensler_Museum_4.jpg">
+    <point>46.815034 7.216971</point>
+    <source>Erlebnismacher AG</source>
+        </image>
+
+<image id="1a60921a11d1a9aa4c95cd529191cac795cefe95_Tafers_Sensler_Museum_2" src="https://emagpimtsoch.sos-ch-dk-2.exoscale-cdn.com/catalog/1/a/6/0/1a60921a11d1a9aa4c95cd529191cac795cefe95_Tafers_Sensler_Museum_2.jpg">
+    <point>46.815034 7.216971</point>
+    <source>Erlebnismacher AG</source>
+        </image>
+
+<image id="f6013c1a29f5f1eca83fb44d53fde6cf7be45257_Tafers_Sensler_Museum_7" src="https://emagpimtsoch.sos-ch-dk-2.exoscale-cdn.com/catalog/f/6/0/1/f6013c1a29f5f1eca83fb44d53fde6cf7be45257_Tafers_Sensler_Museum_7.JPG">
+    <point>46.815034 7.216971</point>
+    <source>Erlebnismacher AG</source>
+        </image>
+
+<image id="d118140cb81de71dd68fb2678ad9836d00e7904f_Tafers_Sensler_Museum_5" src="https://emagpimtsoch.sos-ch-dk-2.exoscale-cdn.com/catalog/d/1/1/8/d118140cb81de71dd68fb2678ad9836d00e7904f_Tafers_Sensler_Museum_5.JPG">
+    <point>46.815034 7.216971</point>
+    <source>Erlebnismacher AG</source>
+        </image>
+
+
+
+
+
+</images>
+
+				</poi>
+		<poi id="ca161fa8-6f6e-4038-80c2-3d7ade0ec702" workflow="online" lastmodified="2023-10-05 04:41:05">
+					<owner>pim-emag</owner>
+			<categories>
+								<category>hotel</category>
+							</categories>
+			<point>46.94513590105026 7.7119624614715585</point>
+			<contact>
+				<address>
+					 
+						<street>Moosegg 231a</street>
+										 
+						<municipality>Emmenmatt</municipality>
+										 
+						<postalcode>3543</postalcode>
+									</address>
+				 
+				<tel>+41 34 409 06 06</tel>
+												 
+				<url>https://www.moosegg.ch/</url>
+							</contact>
+			<attributes>
+								<context id="default">
+            <link type="booking" title="Jetzt buchen" href="https://www.moosegg.ch/protel/#/hotelbooking"/>
+    </context>
+			</attributes>
+			<descriptions>
+				<description lang="de">
+					<title>Hotel Moosegg, Emmenmatt</title>
+					<abstract>Familiäre, herzliche und unkomplizierte Gastfreundschaft - das wird im Hotel Moosegg grossgeschrieben. Geniessen Sie innovative Küche, Gemütlichkeit und die herrliche Aussicht des Emmentals.</abstract>					<text>Restaurant
+Genießen Sie die aus regionalen Produkten zubereiteten Gerichte aus der kreativen Küche des eleganten und mit 16 Punkten im Gault-Millau ausgezeichneten Restaurants. Ob in der gemütlichen «Beiz» im Gourmet Restaurant unter den Lauben oder auf der Aussichtsterasse - im Hotel Moosegg werden Sie garantiert verzaubert.
+
+Hotel
+Höchste Zeit für eine Auszeit um die Lebensgeister wiederzubeleben? Ein Kurzurlaub auf die Moosegg, denn Gutes liegt so nah und altbewährtes ist hier im Emmental zuhause. Im mit 3 Sternen ausgezeichneten Boutique Hotel geniessen Sie den Blick ins Tal aus einem der 20 renovierten, heimeligen Hotelzimmer.
+
+Bankette &amp; Seminare
+Ob Feiern oder Arbeiten, auf der Moosegg ist beides möglich! Egal ob Regenwetter oder Sonnenschein, das Team verwöhnt Sie in jeder Wetterlage stets professionell und auf hochstehendem Niveau. Es stehen diverse Räumlichkeiten für Bankette oder Seminare und Tagungen zur Verfügung und auch fürs leibliche Wohl wird gesorgt. 
+
+Freiluft-Wellness
+Ihnen wird eine Oase der Ruhe auf der Moosegg geboten! Nebst dem nigelnagel neuen Hot Pot gibt es nun eine finnische Sauna im Angebot. Lassen Sie Ihre Seele baumeln "wellnessen" Sie Ihre Sorgen weg.
+
+Freizeitaktivitäten
+In einem Radius von 10 km um das Hotel herum finden Sie den Golfpark Oberburg, die Käserei Emmental und das Spa Lützelflüh.
+
+E-Bikes auf der Moosegg
+Um die Bikes über Nacht abzuschliessen, steht den Gästen eine Velogarage zur Verfügung, wo die Bikes Strom tanken können. Entlang dem Hotel Moosegg führen folgende Hügu Himmu Routen: «Herzroute 99» und «Moosegg Rundi». Bei einer Übernachtung können Lunchpakete für den nächsten Tag bestellt werden.</text>				</description>
+				<description lang="en">
+					<title/>
+														</description>
+			</descriptions>
+			<images>
+
+                    <image id="246ab18a7e385206ae1488c285e7da71da6837e9_Hotel_Moosegg_Aussenansicht_Web" src="https://emagpimtsoch.sos-ch-dk-2.exoscale-cdn.com/catalog/2/4/6/a/246ab18a7e385206ae1488c285e7da71da6837e9_Hotel_Moosegg_Aussenansicht_Web.png">
+            <point>46.94513590105026 7.7119624614715585</point>
+            <source>Erlebnismacher AG</source>
+                                </image>
+            
+<image id="d7b7283e22bf5ea8122d3523cb788ce7ed8b380b_Hotel_Moosegg_Aussicht_Balkon_Web" src="https://emagpimtsoch.sos-ch-dk-2.exoscale-cdn.com/catalog/d/7/b/7/d7b7283e22bf5ea8122d3523cb788ce7ed8b380b_Hotel_Moosegg_Aussicht_Balkon_Web.jpg">
+    <point>46.94513590105026 7.7119624614715585</point>
+    <source>Erlebnismacher AG</source>
+        </image>
+
+<image id="8bb0f3638d8af1499df7764d74119dd5239021c9_Hotel_Moosegg_Hotelzimmer_Superieur_Web" src="https://emagpimtsoch.sos-ch-dk-2.exoscale-cdn.com/catalog/8/b/b/0/8bb0f3638d8af1499df7764d74119dd5239021c9_Hotel_Moosegg_Hotelzimmer_Superieur_Web.jpg">
+    <point>46.94513590105026 7.7119624614715585</point>
+    <source>Erlebnismacher AG</source>
+        </image>
+
+<image id="9d88c9a129d77243653a61bae0b42f6b53058fca_Hotel_Moosegg_Wellness_Nacht_2_Web" src="https://emagpimtsoch.sos-ch-dk-2.exoscale-cdn.com/catalog/9/d/8/8/9d88c9a129d77243653a61bae0b42f6b53058fca_Hotel_Moosegg_Wellness_Nacht_2_Web.jpg">
+    <point>46.94513590105026 7.7119624614715585</point>
+    <source>Erlebnismacher AG</source>
+        </image>
+
+<image id="3ab81ad590b059984605f7c446dd29b1862e2e1c_Hotel_Moosegg_Wellness_Nacht_1_Web" src="https://emagpimtsoch.sos-ch-dk-2.exoscale-cdn.com/catalog/3/a/b/8/3ab81ad590b059984605f7c446dd29b1862e2e1c_Hotel_Moosegg_Wellness_Nacht_1_Web.jpg">
+    <point>46.94513590105026 7.7119624614715585</point>
+    <source>Erlebnismacher AG</source>
+        </image>
+
+<image id="d31f3fe4271c0dcb8b5b0426d707e1177f55c84e_Hotel_Moosegg_Terrasse_2_Web" src="https://emagpimtsoch.sos-ch-dk-2.exoscale-cdn.com/catalog/d/3/1/f/d31f3fe4271c0dcb8b5b0426d707e1177f55c84e_Hotel_Moosegg_Terrasse_2_Web.jpg">
+    <point>46.94513590105026 7.7119624614715585</point>
+    <source>Erlebnismacher AG</source>
+        </image>
+
+<image id="a9ce59658f53ed53f6b2eb59d4f5edadef719561_Hotel_Moosegg_Terrasse_1_Web" src="https://emagpimtsoch.sos-ch-dk-2.exoscale-cdn.com/catalog/a/9/c/e/a9ce59658f53ed53f6b2eb59d4f5edadef719561_Hotel_Moosegg_Terrasse_1_Web.jpg">
+    <point>46.94513590105026 7.7119624614715585</point>
+    <source>Erlebnismacher AG</source>
+        </image>
+
+<image id="c35161d0225c2685511753a6da22e215badaa9b1_Hotel_Moosegg_Lounge_Web" src="https://emagpimtsoch.sos-ch-dk-2.exoscale-cdn.com/catalog/c/3/5/1/c35161d0225c2685511753a6da22e215badaa9b1_Hotel_Moosegg_Lounge_Web.JPG">
+    <point>46.94513590105026 7.7119624614715585</point>
+    <source>Erlebnismacher AG</source>
+        </image>
+
+<image id="fdacfaa90523c62eacc27d92b5d3ace9c87d3463_Hotel_Moosegg_Podium_Restaurant_Web" src="https://emagpimtsoch.sos-ch-dk-2.exoscale-cdn.com/catalog/f/d/a/c/fdacfaa90523c62eacc27d92b5d3ace9c87d3463_Hotel_Moosegg_Podium_Restaurant_Web.jpg">
+    <point>46.94513590105026 7.7119624614715585</point>
+    <source>Erlebnismacher AG</source>
+        </image>
+
+<image id="c10417026085077faab1d4917faeb17cbd46edc9_Aussicht_Moosegg_Lauperswil" src="https://emagpimtsoch.sos-ch-dk-2.exoscale-cdn.com/catalog/c/1/0/4/c10417026085077faab1d4917faeb17cbd46edc9_Aussicht_Moosegg_Lauperswil.JPG">
+    <point>46.94513590105026 7.7119624614715585</point>
+    <source>Erlebnismacher AG</source>
+        </image>
+
+</images>
+
+				</poi>
+		<poi id="ca7d5880-da84-4652-b901-bbec631fa4f9" workflow="online" lastmodified="2024-02-02 09:22:52">
+					<owner>pim-emag</owner>
+			<categories>
+								<category>castle</category>
+							</categories>
+			<point>47.03195604495164 7.7626991271972665</point>
+			<contact>
+				<address>
+					 
+						<street>Schloss 88</street>
+										 
+						<municipality>Sumiswald</municipality>
+										 
+						<postalcode>3454</postalcode>
+									</address>
+				 
+				<tel>+41 34 432 55 66</tel>
+												 
+				<url>https://www.schlafschloss.ch/home</url>
+							</contact>
+			<attributes>
+								<context id="default">
+            <link type="booking" title="Jetzt buchen" href="https://booking.roomraccoon.ch/schlafschloss-sumiswald/de/#34289%22%20target="/>
+    </context>
+			</attributes>
+			<descriptions>
+				<description lang="de">
+					<title>BnB SchlafSchloss, Sumiswald</title>
+					<abstract>Übernachten Sie im Turm, des historischen Deutschritterschloss aus dem 13. Jahrhundert und lassen Sie sich von dessen Charme verzaubern. </abstract>					<text>Bed and Breakfast
+Das BnB SchlafSchloss in Sumiswald bietet mit seinem Charme einen unvergesslichen Aufenthalt im Emmental. Die Terrasse mit schönem Blick über die Emmentaler Hügellandschaft lädt anschliessend zum Entspannen ein. 
+
+Kapazität
+-  8 Zimmer mit insgesamt 20 Betten. Die Betten liegen im Turm des Schlosses Sumiswald und sind alle liebevoll eingerichtet. 
+- Kleine und grosse Ferienwohnung
+
+Ausstattung
+- Gemeinschaftsbadezimmer auf jeder Etage
+- Aufenthaltsraum inkl. Küche, Esstisch, Sitzecke und TV (Verfügbarkeit nicht garantiert)
+- Internet im öffentlichen Bereich wie auch in den Zimmern 
+- Abschliessbarer Fahrradraum 
+- Elektro-Ladestation (auf Voranmeldung vorhanden)
+- Parkmöglichkeiten für Autos und Fahrräder
+
+Sportmöglichkeiten
+Das SchlafSchloss ist Idealer Ausgangspunkt für unendlich viele Touren mit dem Mountain Bike, dem E-Bike und dem Rennvelo sowie Wanderungen rund um das Schloss herum.
+
+Umgebung
+Das Schloss liegt auf einem Hügel hoch über dem Dorf Sumiswald an ruhiger Lage und nur 10 Gehminuten von der ÖV-Haltestelle entfernt. Im Eingangsbereich finden Sie eine Informations-Ecke mit Ausflugstipps und Broschüren über die Region sowie eine Gästebibliothek. Die Garten-Terrasse gibt den Blick in die Emmentaler Hügellandschaft frei. 
+
+</text>				</description>
+				<description lang="en">
+					<title/>
+														</description>
+			</descriptions>
+			<images>
+
+                    <image id="99971ef77ccca7b64fe2fd221885925d21f1d23d_SchlafSchloss_Sumiswald_Aussenansicht_Web" src="https://emagpimtsoch.sos-ch-dk-2.exoscale-cdn.com/catalog/9/9/9/7/99971ef77ccca7b64fe2fd221885925d21f1d23d_SchlafSchloss_Sumiswald_Aussenansicht_Web.jpg">
+            <point>47.03195604495164 7.7626991271972665</point>
+            <source>Erlebnismacher AG</source>
+                                </image>
+            
+<image id="f005845d8ed58453699451ebe39b2ecb345a9852_SchlafSchloss_Sumiswald_Aufenthaltsraum_Web" src="https://emagpimtsoch.sos-ch-dk-2.exoscale-cdn.com/catalog/f/0/0/5/f005845d8ed58453699451ebe39b2ecb345a9852_SchlafSchloss_Sumiswald_Aufenthaltsraum_Web.jpg">
+    <point>47.03195604495164 7.7626991271972665</point>
+    <source>Erlebnismacher AG</source>
+        </image>
+
+<image id="9da4fb87d3ced9f580f30e6a77cae45f2374016a_SchlafSchloss_Sumiswald_Doppelzimmer_Nostalgie_Web" src="https://emagpimtsoch.sos-ch-dk-2.exoscale-cdn.com/catalog/9/d/a/4/9da4fb87d3ced9f580f30e6a77cae45f2374016a_SchlafSchloss_Sumiswald_Doppelzimmer_Nostalgie_Web.jpg">
+    <point>47.03195604495164 7.7626991271972665</point>
+    <source>Erlebnismacher AG</source>
+        </image>
+
+<image id="7a9f1cc3c3aa65ee4b476b931727c1b212a3a913_Logo_Small_SchlafSchloss_v1" src="https://emagpimtsoch.sos-ch-dk-2.exoscale-cdn.com/catalog/7/a/9/f/7a9f1cc3c3aa65ee4b476b931727c1b212a3a913_Logo_Small_SchlafSchloss_v1.png">
+    <point>47.03195604495164 7.7626991271972665</point>
+    <source>Erlebnismacher AG</source>
+        </image>
+
+<image id="e36f000f61a13cf1708289686d9290fef345b1f5_SchlafSchloss_Sumiswald_Goldsuite_Web" src="https://emagpimtsoch.sos-ch-dk-2.exoscale-cdn.com/catalog/e/3/6/f/e36f000f61a13cf1708289686d9290fef345b1f5_SchlafSchloss_Sumiswald_Goldsuite_Web.jpg">
+    <point>47.03195604495164 7.7626991271972665</point>
+    <source>Erlebnismacher AG</source>
+        </image>
+
+<image id="f7146ba1b594f59c7bf0cac42ddc9897b9c1ec14_SchlafSchloss_Sumiswald_Aussenansicht_Web__3_" src="https://emagpimtsoch.sos-ch-dk-2.exoscale-cdn.com/catalog/f/7/1/4/f7146ba1b594f59c7bf0cac42ddc9897b9c1ec14_SchlafSchloss_Sumiswald_Aussenansicht_Web__3_.jpg">
+    <point>47.03195604495164 7.7626991271972665</point>
+    <source>Erlebnismacher AG</source>
+        </image>
+
+<image id="64b784e15852d6becc061deebc165dd7e7af21cb_SchlafSchloss_Sumiswald_SchlossSuite_Web" src="https://emagpimtsoch.sos-ch-dk-2.exoscale-cdn.com/catalog/6/4/b/7/64b784e15852d6becc061deebc165dd7e7af21cb_SchlafSchloss_Sumiswald_SchlossSuite_Web.jpg">
+    <point>47.03195604495164 7.7626991271972665</point>
+    <source>Erlebnismacher AG</source>
+        </image>
+
+<image id="4322c990b9194fcc75bddc72007822808bcb7ccd_SchlafSchloss_Sumiswald_Zweibettzimmer_Web" src="https://emagpimtsoch.sos-ch-dk-2.exoscale-cdn.com/catalog/4/3/2/2/4322c990b9194fcc75bddc72007822808bcb7ccd_SchlafSchloss_Sumiswald_Zweibettzimmer_Web.jpg">
+    <point>47.03195604495164 7.7626991271972665</point>
+    <source>Erlebnismacher AG</source>
+        </image>
+
+<image id="ed7e1b21b2482cf9eedd8431381328c10d6f11a5_SchlafSchloss_Sumiswald_Doppelzimmer_Web" src="https://emagpimtsoch.sos-ch-dk-2.exoscale-cdn.com/catalog/e/d/7/e/ed7e1b21b2482cf9eedd8431381328c10d6f11a5_SchlafSchloss_Sumiswald_Doppelzimmer_Web.jpg">
+    <point>47.03195604495164 7.7626991271972665</point>
+    <source>Erlebnismacher AG</source>
+        </image>
+
+<image id="aa4e6f0769d3cfaf9f80f881bd0a0281bc9261bd_SchlafSchloss_Sumiswald_Doppelzimmer_Gold_Web" src="https://emagpimtsoch.sos-ch-dk-2.exoscale-cdn.com/catalog/a/a/4/e/aa4e6f0769d3cfaf9f80f881bd0a0281bc9261bd_SchlafSchloss_Sumiswald_Doppelzimmer_Gold_Web.jpg">
+    <point>47.03195604495164 7.7626991271972665</point>
+    <source>Erlebnismacher AG</source>
+        </image>
+
+</images>
+
+				</poi>
+	</pois>

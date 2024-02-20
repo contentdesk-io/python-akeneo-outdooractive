@@ -8,10 +8,10 @@ def __main__():
    extractData = extract()
    
    print("TRANSFORMING")
-   transformData = transform(extractData) 
+   #transformData = transform(extractData) 
 
    print("LOADING")
-   loadData = load(transformData)
+   loadData = load(extractData)
    print("DONE")
 
 if __name__== "__main__":
