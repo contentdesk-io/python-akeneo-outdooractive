@@ -25,6 +25,7 @@ def transform(products):
 def transformSingle(product):
     # Root
     pois = ET.Element("pois")
+    pois.attrib["xmlns:xsi"] = "http://www.w3.org/2001/XMLSchema-instance"
     pois.attrib["xsi:schemaLocation"] = "http://www.outdooractive.com/api/schema/alp.interface alp.interface.pois.xsd"
     source = ET.SubElement(pois, "source")
     source.text = "tso-test"
@@ -41,6 +42,8 @@ def transformSingle(product):
 
     #tree = ET.ElementTree(pois)
     #tree.write("output.xml")
+    
     xml_string = ET.tostring(pois, encoding="utf-8", method="xml")
+    xml_string = b'<?xml version="1.0" encoding="UTF-8"?>' + xml_string
 
     return xml_string.decode("utf-8")

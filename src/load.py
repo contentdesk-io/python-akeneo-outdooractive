@@ -22,6 +22,8 @@ def s3client():
     )
     return s3_client
 
+import xml.etree.ElementTree as ET
+
 def puObject(data, bucket, filename):
     s3 = s3client()
     s3.put_object(
