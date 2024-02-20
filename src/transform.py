@@ -135,7 +135,7 @@ def transformSingle(product):
             # DisambiguatingDescription
             if "disambiguatingDescription" in product["values"]:
                 for disambiguatingDescription in product["values"]["disambiguatingDescription"]:
-                    if disambiguatingDescription["locale"] == productDescription["locale"]:
+                    if disambiguatingDescription["locale"] == productName["locale"]:
                         abstract = ET.SubElement(description, "abstract")
                         abstract.text = disambiguatingDescription["data"]
 
