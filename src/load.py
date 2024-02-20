@@ -32,6 +32,10 @@ def puObject(data, bucket, filename):
         Body=data,
         ACL='public-read',
         ContentType='application/xml')
+    
+def loadProduct(product):
+    transformData = transformSingle(product)
+    puObject(transformData, S3_BUCKET, S3_EXPORT_PATH+product['identifier']+".xml")
 
 def load(products):
     print("Loading data to target")

@@ -21,6 +21,16 @@ def getAkeneoProducts():
   searchQuery = '{"enabled":[{"operator":"=","value":true}],"completeness":[{"operator":"=","value":100}],"outdooractive_poi_category":[{"operator":"NOT EMPTY"}]}&search_scope=ecommerce'
   return akeneo.getProducts(limit=100, search=searchQuery )
 
+def getAkeneoProduct(identifier):
+  akeneo = Akeneo(
+    AKENEO_HOST,
+    AKENEO_CLIENT_ID,
+    AKENEO_CLIENT_SECRET,
+    AKENEO_USERNAME,
+    AKENEO_PASSWORD
+  )
+  return akeneo.getProductByCode(identifier)
+
 def extract():
   data = getAkeneoProducts()
   return data
