@@ -60,6 +60,8 @@ jobs:
             echo "${{ secrets.OUTDOORACTIVE_OWNER }}" > .env
       - name: Install python-dotenv
         run: pip install python-dotenv
+      - name: Install boto3
+        run: pip install boto3
       - name: Install requests
         run: pip install requests
       - name: Install oauthlib
