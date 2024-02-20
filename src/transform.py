@@ -27,17 +27,41 @@ def transform(products):
             ET.SubElement(poi, key).text = value
     return pois
 
+def coordinates(product):
+    point = ET.Element("point")
+    point.text = product["values"]["latitude"][0]["data"]+" "+product["values"]["longitude"][0]["data"]
+    return point
+
+def setImage(product, point=None):
+    image = ET.Element("image")
+    image.attrib["id"] = product["data"].split("/")[4].split(".")[0]
+    image.attrib["src"] = CDN_ENDPOINT+product["data"]
+    image.append(point)
+    source = ET.SubElement(image, "source")
+    source.text = OUTDOORACTIVE_SOURCE
+    return image
+
+def addImage(product, scope=None, point=None):
+    image = ET.Element("image")
+    if scope is None:
+        image = setImage(product[0], point)
+    else:
+        for productRow in product:
+            if productRow["scope"] == scope:
+                image = setImage(productRow, point)
+    return image
+
 def transformSingle(product):
     # Root
-    pois = ET.Element("pois")
-    pois.attrib["xmlns:xsi"] = "http://www.w3.org/2001/XMLSchema-instance"
-    pois.attrib["xsi:schemaLocation"] = "http://www.outdooractive.com/api/schema/alp.interface alp.interface.pois.xsd"
-    source = ET.SubElement(pois, "source")
-    source.text = OUTDOORACTIVE_SOURCE
-    owner = ET.SubElement(pois, "owner")
-    owner.text = OUTDOORACTIVE_OWNER
+    # pois = ET.Element("pois")
+    # pois.attrib["xmlns:xsi"] = "http://www.w3.org/2001/XMLSchema-instance"
+    # pois.attrib["xsi:schemaLocation"] = "http://www.outdooractive.com/api/schema/alp.interface alp.interface.pois.xsd"
+    # source = ET.SubElement(pois, "source")
+    # source.text = OUTDOORACTIVE_SOURCE
+    # owner = ET.SubElement(pois, "owner")
+    # owner.text = OUTDOORACTIVE_OWNER
     # Poi
-    poi = ET.SubElement(pois, "poi")
+    poi = ET.Element("poi")
     poi.attrib["id"] = product["identifier"]
     if product["enabled"]:
         poi.attrib["workflow"] = "online"
@@ -50,10 +74,10 @@ def transformSingle(product):
 
     if "outdooractive_poi_category" in product['values']:
         categories = ET.SubElement(poi, "categories")
-        ET.SubElement(categories, "category").text = product["values"]["outdooractive_poi_category"][0]["data"]    
-        
-    point = ET.SubElement(poi, "point")
-    point.text = product["values"]["latitude"][0]["data"]+" "+product["values"]["longitude"][0]["data"]
+        ET.SubElement(categories, "category").text = product["values"]["outdooractive_poi_category"][0]["data"]
+
+    point = coordinates(product)
+    poi.append(point)
 
     contact = ET.SubElement(poi, "contact")
     address = ET.SubElement(contact, "address")
@@ -116,18 +140,50 @@ def transformSingle(product):
     # Images
     images = ET.SubElement(poi, "images")
     if "image" in product["values"]:
-        image = ET.SubElement(images, "image")
-        image.attrib["id"] = product["values"]['image'][0]["data"]
-        image.attrib["src"] = CDN_ENDPOINT+product["values"]['image'][0]["data"]
-        point2 = ET.SubElement(image, "point")
-        point2.text = point.text
-        source2 = ET.SubElement(image, "source")
-        source2.text = source.text
+        image = addImage(product["values"]['image'], None, point)
+        images.append(image)
 
-    #tree = ET.ElementTree(pois)
-    #tree.write("output.xml")
+    if "image_01_scope" in product["values"]:
+        image01 = addImage(product["values"]['image_01_scope'], "ecommerce", point)
+        images.append(image01)
     
-    xml_string = ET.tostring(pois, encoding="utf-8", method="xml")
-    xml_string = b'<?xml version="1.0" encoding="UTF-8"?>' + xml_string
+    if "image_02_scope" in product["values"]:
+        image02 = addImage(product["values"]['image_02_scope'], "ecommerce", point)
+        images.append(image02)
+
+    if "image_03_scope" in product["values"]:
+        image03 = addImage(product["values"]['image_03_scope'], "ecommerce", point)
+        images.append(image03)
+    
+    if "image_04_scope" in product["values"]:
+        image04 = addImage(product["values"]['image_04_scope'], "ecommerce", point)
+        images.append(image04)
+    
+    if "image_05_scope" in product["values"]:
+        image05 = addImage(product["values"]['image_05_scope'], "ecommerce", point)
+        images.append(image05)
+    
+    if "image_06_scope" in product["values"]:
+        image06 = addImage(product["values"]['image_06_scope'], "ecommerce", point)
+        images.append(image06)
+    
+    if "image_07_scope" in product["values"]:
+        image07 = addImage(product["values"]['image_07_scope'], "ecommerce", point)
+        images.append(image07)
+    
+    if "image_08_scope" in product["values"]:
+        image08 = addImage(product["values"]['image_08_scope'], "ecommerce", point)
+        images.append(image08)
+
+    if "image_09_scope" in product["values"]:
+        image09 = addImage(product["values"]['image_09_scope'], "ecommerce", point)
+        images.append(image09)
+    
+    if "image_10_scope" in product["values"]:
+        image10 = addImage(product["values"]['image_10_scope'], "ecommerce", point)
+        images.append(image10)
+    
+    xml_string = ET.tostring(poi, encoding="utf-8", method="xml")
+    #xml_string = b'<?xml version="1.0" encoding="UTF-8"?>' + xml_string
 
     return xml_string.decode("utf-8")
