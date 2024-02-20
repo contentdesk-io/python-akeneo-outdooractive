@@ -48,11 +48,9 @@ def transformSingle(product):
     poiOwner = ET.SubElement(poi, "owner")
     poiOwner.text = OUTDOORACTIVE_OWNER
 
-    if "categories" in product:
-        if len(product["categories"]) > 0:
-            categories = ET.SubElement(poi, "categories")                                                 
-            for category in product["categories"]:
-                ET.SubElement(categories, "category").text = category
+    if "outdooractive_poi_category" in product['values']:
+        categories = ET.SubElement(poi, "categories")
+        ET.SubElement(categories, "category").text = product["values"]["outdooractive_poi_category"][0]["data"]    
         
     point = ET.SubElement(poi, "point")
     point.text = product["values"]["latitude"][0]["data"]+" "+product["values"]["longitude"][0]["data"]
