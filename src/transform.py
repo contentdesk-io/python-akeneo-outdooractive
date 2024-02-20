@@ -7,6 +7,7 @@ load_dotenv(find_dotenv())
 CDN_ENDPOINT = getenv('CDN_ENDPOINT')
 OUTDOORACTIVE_SOURCE = getenv('OUTDOORACTIVE_SOURCE')
 OUTDOORACTIVE_OWNER = getenv('OUTDOORACTIVE_OWNER')
+OUTDOORACTIVE_OWNERNAME = getenv('OUTDOORACTIVE_OWNERNAME')
 
 # Transform data to XML
 def transform(products):
@@ -38,7 +39,7 @@ def setImage(product, point=None):
     image.attrib["src"] = CDN_ENDPOINT+product["data"]
     image.append(point)
     source = ET.SubElement(image, "source")
-    source.text = OUTDOORACTIVE_SOURCE
+    source.text = OUTDOORACTIVE_OWNERNAME
     return image
 
 def addImage(product, scope=None, point=None):
@@ -101,8 +102,8 @@ def transformSingle(product):
         url = ET.SubElement(contact, "url")
         url.text = product["values"]["website"][0]["data"]
     
-    attributes = ET.SubElement(poi, "attributes")
     if "starRating" in product["values"]:
+        attributes = ET.SubElement(poi, "attributes")
         hotelstars = ET.SubElement(attributes, "hotelstars")
         if product["values"]["starRating"][0]["data"] == "1":
             hotelstars.text = "1"
@@ -117,20 +118,21 @@ def transformSingle(product):
         if "accommodation_classification_superior" in product["values"]:
              hotelstars.text =  str(hotelstars.text) + str(".5")
     
-    # Descriptions
-    if "description" in product["values"]:
+    # Name
+    if "name" in product["values"]:
         descriptions = ET.SubElement(poi, "descriptions")
-        for productDescription in product["values"]["description"]:
+        for productName in product["values"]["name"]:
             description = ET.SubElement(descriptions, "description")
-            prefix = productDescription["locale"].split("_")[0]
+            prefix = productName["locale"].split("_")[0]
             description.attrib["lang"] = prefix
-            description.text = productDescription["data"]
-            # Name
-            if "name" in product["values"]:
-                for productName in product["values"]["name"]:
-                    if productName["locale"] == productDescription["locale"]:
-                        title = ET.SubElement(description, "title")
-                        title.text = productName["data"]
+            title = ET.SubElement(description, "title")
+            title.text = productName["data"]
+            # Descriptions
+            if "description" in product["values"]:
+                for productDescription in product["values"]["description"]:
+                    if productDescription["locale"] == productName["locale"]:
+                        description.text = productDescription["data"]
+            # DisambiguatingDescription
             if "disambiguatingDescription" in product["values"]:
                 for disambiguatingDescription in product["values"]["disambiguatingDescription"]:
                     if disambiguatingDescription["locale"] == productDescription["locale"]:
