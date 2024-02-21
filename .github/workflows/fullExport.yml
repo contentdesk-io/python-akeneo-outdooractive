@@ -34,7 +34,7 @@ env:
 jobs:
   build:
     environment: ${{ inputs.environment }} 
-    name: Run Full Export
+    name: Run Full Export ${{ inputs.environment }} 
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
