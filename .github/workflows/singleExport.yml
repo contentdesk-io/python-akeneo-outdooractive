@@ -4,11 +4,11 @@ on:
   workflow_dispatch:
     inputs:
         environment:
-            description: 'Environment to run tests against'
+            description: 'Environment'
             type: environment
             required: true
         productSku:
-            description: 'Product SKU to run tests against'
+            description: 'Product SKU'
             type: string
             required: true
   push:
