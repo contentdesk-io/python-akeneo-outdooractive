@@ -1,0 +1,2928 @@
+[
+    {
+        "code": "hotel",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Hotel"
+        }
+    },
+    {
+        "code": "hotelGarni",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Hotel Garni"
+        }
+    },
+    {
+        "code": "guesthouse",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Pension"
+        }
+    },
+    {
+        "code": "apartment",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Apartment"
+        }
+    },
+    {
+        "code": "holidayFlat",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Ferienwohnung"
+        }
+    },
+    {
+        "code": "holidayHouse",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Ferienhaus"
+        }
+    },
+    {
+        "code": "privateRoom",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Privatvermieter"
+        }
+    },
+    {
+        "code": "inn",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Gasthof"
+        }
+    },
+    {
+        "code": "farm",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Bauernhof"
+        }
+    },
+    {
+        "code": "horsebackRidingHof",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Reiterhof"
+        }
+    },
+    {
+        "code": "youthHostel",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Jugendherberge"
+        }
+    },
+    {
+        "code": "camping",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Campingplatz"
+        }
+    },
+    {
+        "code": "caravanLot",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Wohnmobilstellplatz"
+        }
+    },
+    {
+        "code": "recreationHome",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Erholungsheim"
+        }
+    },
+    {
+        "code": "motel",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Motel"
+        }
+    },
+    {
+        "code": "groupAccommodation",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Gruppenunterkunft"
+        }
+    },
+    {
+        "code": "harborage",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Herberge / Hostel"
+        }
+    },
+    {
+        "code": "mountainCottage",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Bewirtschaftete H\u00fctte"
+        }
+    },
+    {
+        "code": "alpineHut",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Selbstversorgerh\u00fctte"
+        }
+    },
+    {
+        "code": "hutPrivate",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Private H\u00fctte"
+        }
+    },
+    {
+        "code": "hutBivouac",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Biwak"
+        }
+    },
+    {
+        "code": "hutAlpOpened",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Bewirtschaftete Alm"
+        }
+    },
+    {
+        "code": "alpClosed",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Alm"
+        }
+    },
+    {
+        "code": "hutAlpineSnackBar",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Jausenstation"
+        }
+    },
+    {
+        "code": "hutAlpineDairy",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Sennalpe"
+        }
+    },
+    {
+        "code": "bar",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Bar"
+        }
+    },
+    {
+        "code": "mountainInn",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Berggasthof"
+        }
+    },
+    {
+        "code": "beerGarden",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Biergarten"
+        }
+    },
+    {
+        "code": "bistro",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Bistro"
+        }
+    },
+    {
+        "code": "brewery",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Brauerei"
+        }
+    },
+    {
+        "code": "distillery",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Brennerei"
+        }
+    },
+    {
+        "code": "coffeeHouse",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Caf\u00e9"
+        }
+    },
+    {
+        "code": "disco",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Disko"
+        }
+    },
+    {
+        "code": "iceCreamParlour",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Eisdiele"
+        }
+    },
+    {
+        "code": "publicHouse",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Gastst\u00e4tte"
+        }
+    },
+    {
+        "code": "starratedRestaurant",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Haubenlokal"
+        }
+    },
+    {
+        "code": "wineTavern",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Heurige"
+        }
+    },
+    {
+        "code": "snackBar",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Imbiss"
+        }
+    },
+    {
+        "code": "coffeeShop",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Kaffeehaus"
+        }
+    },
+    {
+        "code": "tavern",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Kneipe"
+        }
+    },
+    {
+        "code": "nightLife",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Nightlife"
+        }
+    },
+    {
+        "code": "pizzeria",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Pizzeria"
+        }
+    },
+    {
+        "code": "pub",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Pub"
+        }
+    },
+    {
+        "code": "restaurant",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Restaurant"
+        }
+    },
+    {
+        "code": "vinotheque",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Vinothek"
+        }
+    },
+    {
+        "code": "wineBar",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Weinstube"
+        }
+    },
+    {
+        "code": "fishing",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Angeln & Fischen"
+        }
+    },
+    {
+        "code": "badminton",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Badminton"
+        }
+    },
+    {
+        "code": "beachVolleyball",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Beachvolleyball"
+        }
+    },
+    {
+        "code": "bikePark",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Bikepark"
+        }
+    },
+    {
+        "code": "mountainGuideOffice",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Bergschule"
+        }
+    },
+    {
+        "code": "bouldering",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Bouldern"
+        }
+    },
+    {
+        "code": "billiards",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Billard"
+        }
+    },
+    {
+        "code": "boccia",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Boccia"
+        }
+    },
+    {
+        "code": "bmx",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "BMX-Anlage"
+        }
+    },
+    {
+        "code": "bungeeJumping",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Bungee-Jumping"
+        }
+    },
+    {
+        "code": "entrance",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Einstieg"
+        }
+    },
+    {
+        "code": "iceSports",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Eissport"
+        }
+    },
+    {
+        "code": "iceStockSport",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Eisstock"
+        }
+    },
+    {
+        "code": "fitness",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Fitness"
+        }
+    },
+    {
+        "code": "football",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Fu\u00dfball"
+        }
+    },
+    {
+        "code": "flightSchool",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Flugschule"
+        }
+    },
+    {
+        "code": "paragliding",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Gleitschirmfliegen"
+        }
+    },
+    {
+        "code": "gocart",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Go-Kart"
+        }
+    },
+    {
+        "code": "golfCourse",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Golf"
+        }
+    },
+    {
+        "code": "handball",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Handball"
+        }
+    },
+    {
+        "code": "martialArts",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Kampfsport"
+        }
+    },
+    {
+        "code": "climbing",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Kletterfels"
+        }
+    },
+    {
+        "code": "indoorClimbing",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Kletterhalle"
+        }
+    },
+    {
+        "code": "crossCountrySkiingCentre",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Langlaufzentrum"
+        }
+    },
+    {
+        "code": "airSports",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Luftsport"
+        }
+    },
+    {
+        "code": "motocross",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Motocross-Anlage"
+        }
+    },
+    {
+        "code": "motorsportsPoi",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Motor-Sport"
+        }
+    },
+    {
+        "code": "nordicWalkingCentre",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Nordic-Walking-Zentrum"
+        }
+    },
+    {
+        "code": "shootingSports",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Schie\u00dfsport"
+        }
+    },
+    {
+        "code": "horsebackRidingPoi",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Reitsport"
+        }
+    },
+    {
+        "code": "sailingPoi",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Segeln"
+        }
+    },
+    {
+        "code": "inlineSkatingPoi",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Skate Park"
+        }
+    },
+    {
+        "code": "skischool",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Skischule"
+        }
+    },
+    {
+        "code": "skijump",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Skisprungschanze"
+        }
+    },
+    {
+        "code": "wintersportsRenting",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Skiverleih"
+        }
+    },
+    {
+        "code": "snowPark",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Snowpark"
+        }
+    },
+    {
+        "code": "sportsHall",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Sporthalle"
+        }
+    },
+    {
+        "code": "sportsField",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Sportplatz"
+        }
+    },
+    {
+        "code": "squash",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Squash"
+        }
+    },
+    {
+        "code": "stadion",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Stadion"
+        }
+    },
+    {
+        "code": "dancing",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Tanzen"
+        }
+    },
+    {
+        "code": "diving",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Tauchen"
+        }
+    },
+    {
+        "code": "tennis",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Tennis"
+        }
+    },
+    {
+        "code": "keepFitTrail",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Trimm-Dich-Pfad"
+        }
+    },
+    {
+        "code": "volleyball",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Volleyball"
+        }
+    },
+    {
+        "code": "waterSports",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Wassersport"
+        }
+    },
+    {
+        "code": "aquarium",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Aquarium"
+        }
+    },
+    {
+        "code": "seasideCampsite",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Badestelle"
+        }
+    },
+    {
+        "code": "casino",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Casino"
+        }
+    },
+    {
+        "code": "holidaySwimmingPool",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Erlebnisbad"
+        }
+    },
+    {
+        "code": "outdoorSwimmingPool",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Freibad"
+        }
+    },
+    {
+        "code": "animalOpenairGround",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Freigehege"
+        }
+    },
+    {
+        "code": "amusementPark",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Freizeitpark"
+        }
+    },
+    {
+        "code": "gardenRailway",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Gartenbahn"
+        }
+    },
+    {
+        "code": "geocachingPoi",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Geocaching"
+        }
+    },
+    {
+        "code": "barbecueArea",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Grillplatz"
+        }
+    },
+    {
+        "code": "indoorSwimmingPool",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Hallenbad"
+        }
+    },
+    {
+        "code": "highRopeCourse",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Hochseilgarten"
+        }
+    },
+    {
+        "code": "playingHouse",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Kinder-Spielhaus"
+        }
+    },
+    {
+        "code": "youthClub",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Jugendtreff"
+        }
+    },
+    {
+        "code": "canoePoi",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Kanuanlegestelle"
+        }
+    },
+    {
+        "code": "bowling",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Kegeln"
+        }
+    },
+    {
+        "code": "cinema",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Kino"
+        }
+    },
+    {
+        "code": "carriageRidePoi",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Kutschfahrt"
+        }
+    },
+    {
+        "code": "massage",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Massage"
+        }
+    },
+    {
+        "code": "miniatureGolfCourse",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Minigolf"
+        }
+    },
+    {
+        "code": "museumRailway",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Museumsbahn"
+        }
+    },
+    {
+        "code": "natureTrail",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Naturlehrpfad"
+        }
+    },
+    {
+        "code": "outdoorActivityCompany",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Outdoor-Veranstalter"
+        }
+    },
+    {
+        "code": "sledgeSlope",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Rodelhang"
+        }
+    },
+    {
+        "code": "sauna",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Sauna"
+        }
+    },
+    {
+        "code": "coastalSwimmingPool",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Seebad"
+        }
+    },
+    {
+        "code": "solarium",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Solarium"
+        }
+    },
+    {
+        "code": "summerTobogganRunPoi",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Sommerrodelbahn"
+        }
+    },
+    {
+        "code": "gisSummerCurlingLane",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Sommerstockbahn"
+        }
+    },
+    {
+        "code": "playground",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Spielplatz"
+        }
+    },
+    {
+        "code": "stampStation",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Stempelstation"
+        }
+    },
+    {
+        "code": "observatory",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Sternwarte"
+        }
+    },
+    {
+        "code": "hotSprings",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Therme"
+        }
+    },
+    {
+        "code": "wellness",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Wellness"
+        }
+    },
+    {
+        "code": "yachtclub",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Yachtklub"
+        }
+    },
+    {
+        "code": "gisTobogganRun",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Winterrodelbahn"
+        }
+    },
+    {
+        "code": "circus",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Zirkus"
+        }
+    },
+    {
+        "code": "zoo",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Zoo / Tierpark"
+        }
+    },
+    {
+        "code": "archaeologicalPlace",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Arch\u00e4ologische St\u00e4tte"
+        }
+    },
+    {
+        "code": "architecture",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Architektur"
+        }
+    },
+    {
+        "code": "fair",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Ausstellung"
+        }
+    },
+    {
+        "code": "mine",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Bergwerk"
+        }
+    },
+    {
+        "code": "library",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Bibliothek"
+        }
+    },
+    {
+        "code": "waysideShrine",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Bildstock"
+        }
+    },
+    {
+        "code": "fortress",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Burg"
+        }
+    },
+    {
+        "code": "monument",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Denkmal"
+        }
+    },
+    {
+        "code": "cathedralDome",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Dom"
+        }
+    },
+    {
+        "code": "frameHouse",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Fachwerkhaus"
+        }
+    },
+    {
+        "code": "stronghold",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Festung"
+        }
+    },
+    {
+        "code": "folklore",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Folklore"
+        }
+    },
+    {
+        "code": "openAirTheater",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Freilichtb\u00fchne"
+        }
+    },
+    {
+        "code": "cemetery",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Friedhof"
+        }
+    },
+    {
+        "code": "gallery",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Galerie"
+        }
+    },
+    {
+        "code": "historicPlace",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Historische St\u00e4tte"
+        }
+    },
+    {
+        "code": "historicCityCenter",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Historischer Stadtkern"
+        }
+    },
+    {
+        "code": "industrialMonument",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Industriedenkmal"
+        }
+    },
+    {
+        "code": "chapel",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Kapelle"
+        }
+    },
+    {
+        "code": "cathedral",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Kathedrale"
+        }
+    },
+    {
+        "code": "church",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Kirche"
+        }
+    },
+    {
+        "code": "monastery",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Kloster"
+        }
+    },
+    {
+        "code": "concertHall",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Konzerthaus"
+        }
+    },
+    {
+        "code": "culturalCenter",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Kulturzentrum"
+        }
+    },
+    {
+        "code": "art",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Kunst"
+        }
+    },
+    {
+        "code": "cureHouse",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Kurhaus"
+        }
+    },
+    {
+        "code": "mosque",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Moschee"
+        }
+    },
+    {
+        "code": "museum",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Museum"
+        }
+    },
+    {
+        "code": "opera",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Oper"
+        }
+    },
+    {
+        "code": "religiousInstitute",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Religi\u00f6se Einrichtung"
+        }
+    },
+    {
+        "code": "ruin",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Ruine"
+        }
+    },
+    {
+        "code": "castle",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Schloss"
+        }
+    },
+    {
+        "code": "synagogue",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Synagoge"
+        }
+    },
+    {
+        "code": "theater",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Theater"
+        }
+    },
+    {
+        "code": "location",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Veranstaltungsort"
+        }
+    },
+    {
+        "code": "pilgrimageChurch",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Wallfahrtskirche"
+        }
+    },
+    {
+        "code": "winery",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Weingut"
+        }
+    },
+    {
+        "code": "alley",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Allee"
+        }
+    },
+    {
+        "code": "viewpoint",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Aussichtspunkt"
+        }
+    },
+    {
+        "code": "lookout",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Aussichtsturm"
+        }
+    },
+    {
+        "code": "mountainTop",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Berggipfel"
+        }
+    },
+    {
+        "code": "biosphereReserve",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Biosph\u00e4renreservat"
+        }
+    },
+    {
+        "code": "biotope",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Biotop"
+        }
+    },
+    {
+        "code": "bridge",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Br\u00fccke"
+        }
+    },
+    {
+        "code": "spring",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Brunnen"
+        }
+    },
+    {
+        "code": "dike",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Deich"
+        }
+    },
+    {
+        "code": "fauna",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Fauna"
+        }
+    },
+    {
+        "code": "flora",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Flora"
+        }
+    },
+    {
+        "code": "canal",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Fluss"
+        }
+    },
+    {
+        "code": "forestersHouse",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Forsthaus"
+        }
+    },
+    {
+        "code": "garden",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Garten"
+        }
+    },
+    {
+        "code": "geotope",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Geotop"
+        }
+    },
+    {
+        "code": "glacier",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Gletscher"
+        }
+    },
+    {
+        "code": "estate",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Gutshof"
+        }
+    },
+    {
+        "code": "acclivity",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Halde"
+        }
+    },
+    {
+        "code": "cave",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "H\u00f6hle"
+        }
+    },
+    {
+        "code": "island",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Insel"
+        }
+    },
+    {
+        "code": "coast",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "K\u00fcste"
+        }
+    },
+    {
+        "code": "landscapeProtectionAreaPoi",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Landschaftsschutzgebiet"
+        }
+    },
+    {
+        "code": "lighthouse",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Leuchtturm"
+        }
+    },
+    {
+        "code": "swamp",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Moor"
+        }
+    },
+    {
+        "code": "mill",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "M\u00fchle"
+        }
+    },
+    {
+        "code": "nationalPark",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Nationalpark"
+        }
+    },
+    {
+        "code": "naturalMonument",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Naturdenkmal"
+        }
+    },
+    {
+        "code": "naturalPark",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Naturpark"
+        }
+    },
+    {
+        "code": "conservationArea",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Naturschutzgebiet"
+        }
+    },
+    {
+        "code": "locationCity",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Ortschaft"
+        }
+    },
+    {
+        "code": "park",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Park"
+        }
+    },
+    {
+        "code": "pass",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Pass"
+        }
+    },
+    {
+        "code": "place",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Platz"
+        }
+    },
+    {
+        "code": "fount",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Quelle"
+        }
+    },
+    {
+        "code": "saltGrotto",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Salzgrotte"
+        }
+    },
+    {
+        "code": "barn",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Scheune"
+        }
+    },
+    {
+        "code": "canyon",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Schlucht"
+        }
+    },
+    {
+        "code": "lake",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "See"
+        }
+    },
+    {
+        "code": "antennaTower",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Sendemast"
+        }
+    },
+    {
+        "code": "masonryDam",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Staumauer"
+        }
+    },
+    {
+        "code": "footbridge",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Steg"
+        }
+    },
+    {
+        "code": "beach",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Strand"
+        }
+    },
+    {
+        "code": "pond",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Teich"
+        }
+    },
+    {
+        "code": "shelter",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Unterstand"
+        }
+    },
+    {
+        "code": "forest",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Wald"
+        }
+    },
+    {
+        "code": "euBirdSanctuary",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Vogelschutzgebiet"
+        }
+    },
+    {
+        "code": "waterfall",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Wasserfall"
+        }
+    },
+    {
+        "code": "mudFlats",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Watt"
+        }
+    },
+    {
+        "code": "guidedTourPoi",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Wegpunkt"
+        }
+    },
+    {
+        "code": "windWheel",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Windrad"
+        }
+    },
+    {
+        "code": "valleyPoi",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Tal"
+        }
+    },
+    {
+        "code": "protectedPartOfLandscape",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Schutzgebiet"
+        }
+    },
+    {
+        "code": "waysideCross",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Wegkreuz"
+        }
+    },
+    {
+        "code": "pharmacy",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Apotheke"
+        }
+    },
+    {
+        "code": "dyalisis",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Dialysestation"
+        }
+    },
+    {
+        "code": "medic",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Arzt"
+        }
+    },
+    {
+        "code": "defibrilator",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Defibrillator"
+        }
+    },
+    {
+        "code": "mineralSpring",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Heilquelle"
+        }
+    },
+    {
+        "code": "healthSpa",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Heilbad"
+        }
+    },
+    {
+        "code": "alternativePractitioner",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Heilpraktiker"
+        }
+    },
+    {
+        "code": "rehabilitationClinic",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Klinik"
+        }
+    },
+    {
+        "code": "hospital",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Krankenhaus"
+        }
+    },
+    {
+        "code": "curInstitute",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Kureinrichtung"
+        }
+    },
+    {
+        "code": "physicalTherapy",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Physiotherapie"
+        }
+    },
+    {
+        "code": "sanatorium",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Sanatorium"
+        }
+    },
+    {
+        "code": "nursingHome",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Senioren- & Pflegeheim"
+        }
+    },
+    {
+        "code": "neurologist",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Psychotherapie"
+        }
+    },
+    {
+        "code": "socialWelfare",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Sozialf\u00fcrsorge"
+        }
+    },
+    {
+        "code": "treadWater",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Kneipp-Anlage"
+        }
+    },
+    {
+        "code": "dentist",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Zahnarzt"
+        }
+    },
+    {
+        "code": "landingStage",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Anlegestelle"
+        }
+    },
+    {
+        "code": "carHire",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Autovermietung"
+        }
+    },
+    {
+        "code": "station",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Bahnhof"
+        }
+    },
+    {
+        "code": "inclineTop",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Bergbahn Bergstation"
+        }
+    },
+    {
+        "code": "inclineMiddle",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Bergbahn Mittelstation"
+        }
+    },
+    {
+        "code": "inclineBase",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Bergbahn Talstation"
+        }
+    },
+    {
+        "code": "boatHire",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Bootsverleih"
+        }
+    },
+    {
+        "code": "busStop",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Bushaltestelle"
+        }
+    },
+    {
+        "code": "busParkingLot",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Busparkplatz"
+        }
+    },
+    {
+        "code": "eBikeAccuChange",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "E-Bike-Ladestation"
+        }
+    },
+    {
+        "code": "eBikeRental",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "E-Bike-Verleih"
+        }
+    },
+    {
+        "code": "eBikeService",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "E-Bike-Service"
+        }
+    },
+    {
+        "code": "electricCarRechargingStation",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Elektroauto-Ladestation"
+        }
+    },
+    {
+        "code": "ferry",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "F\u00e4hre"
+        }
+    },
+    {
+        "code": "airport",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Flughafen"
+        }
+    },
+    {
+        "code": "airfield",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Flugplatz"
+        }
+    },
+    {
+        "code": "harbour",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Hafen"
+        }
+    },
+    {
+        "code": "parkingGarage",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Parkhaus"
+        }
+    },
+    {
+        "code": "parkingLot",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Parkplatz"
+        }
+    },
+    {
+        "code": "carRepair",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "KFZ-Werkstatt"
+        }
+    },
+    {
+        "code": "bikeRental",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Radverleih"
+        }
+    },
+    {
+        "code": "restingPlace",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Rastplatz"
+        }
+    },
+    {
+        "code": "bikeRepairShop",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Radservice"
+        }
+    },
+    {
+        "code": "sStation",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "S-Bahn"
+        }
+    },
+    {
+        "code": "navy",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Schifffahrt"
+        }
+    },
+    {
+        "code": "sluice",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Schleuse"
+        }
+    },
+    {
+        "code": "skiLift",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Skilift"
+        }
+    },
+    {
+        "code": "tramStation",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Stra\u00dfenbahn"
+        }
+    },
+    {
+        "code": "petrolStation",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Tankstelle"
+        }
+    },
+    {
+        "code": "taxi",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Taxi"
+        }
+    },
+    {
+        "code": "uStation",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "U-Bahn"
+        }
+    },
+    {
+        "code": "drivingTrainingArea",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Verkehrs\u00fcbungsplatz"
+        }
+    },
+    {
+        "code": "yachtHarbour",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Yachthafen"
+        }
+    },
+    {
+        "code": "segwayRenting",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Segway-Verleih"
+        }
+    },
+    {
+        "code": "employmentAgency",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Agentur f\u00fcr Arbeit"
+        }
+    },
+    {
+        "code": "buildingAuthorities",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Bauamt"
+        }
+    },
+    {
+        "code": "bank",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Bank"
+        }
+    },
+    {
+        "code": "mountainRescue",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Bergrettung"
+        }
+    },
+    {
+        "code": "letterBox",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Briefkasten"
+        }
+    },
+    {
+        "code": "citizensAdviceBureau",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "B\u00fcrgerb\u00fcro"
+        }
+    },
+    {
+        "code": "financeOffice",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Finanzamt"
+        }
+    },
+    {
+        "code": "fireDepartment",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Feuerwehr"
+        }
+    },
+    {
+        "code": "lostPropertyOffice",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Fundb\u00fcro"
+        }
+    },
+    {
+        "code": "guestOffice",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "G\u00e4steamt"
+        }
+    },
+    {
+        "code": "cashMachine",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Geldautomat"
+        }
+    },
+    {
+        "code": "court",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Gericht"
+        }
+    },
+    {
+        "code": "higherAdministrationFacilities",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "H\u00f6here Verwaltung"
+        }
+    },
+    {
+        "code": "helpDesk",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Infopunkt"
+        }
+    },
+    {
+        "code": "infoCenter",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Infozentrum"
+        }
+    },
+    {
+        "code": "internetCafe",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Internetcaf\u00e9"
+        }
+    },
+    {
+        "code": "conferenceCenter",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Konferenzzentrum"
+        }
+    },
+    {
+        "code": "districtOffice",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Landratsamt"
+        }
+    },
+    {
+        "code": "multiPurposeHall",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Mehrzweckhalle"
+        }
+    },
+    {
+        "code": "mess",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Messe"
+        }
+    },
+    {
+        "code": "armedForces",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Milit\u00e4r"
+        }
+    },
+    {
+        "code": "organization",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Organisation"
+        }
+    },
+    {
+        "code": "police",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Polizei"
+        }
+    },
+    {
+        "code": "post",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Post"
+        }
+    },
+    {
+        "code": "cityHall",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Rathaus"
+        }
+    },
+    {
+        "code": "recyclingCentre",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Recyclinghof"
+        }
+    },
+    {
+        "code": "publicUtilities",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Stadtwerke"
+        }
+    },
+    {
+        "code": "disasterPrevention",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "THW / Katastrophenschutz"
+        }
+    },
+    {
+        "code": "touristInfo",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Tourist-Information"
+        }
+    },
+    {
+        "code": "meetingPoint",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Treffpunkt"
+        }
+    },
+    {
+        "code": "clubHouse",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Vereinsheim"
+        }
+    },
+    {
+        "code": "waterRescue",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Wasserrettung"
+        }
+    },
+    {
+        "code": "toilet",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "WC"
+        }
+    },
+    {
+        "code": "housingAssociations",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Wohnungsgesellschaft"
+        }
+    },
+    {
+        "code": "churchAdministration",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Kirchliche Verwaltung"
+        }
+    },
+    {
+        "code": "rescueService",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Rettungsdienst"
+        }
+    },
+    {
+        "code": "carDealership",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Automobilh\u00e4ndler"
+        }
+    },
+    {
+        "code": "baker",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "B\u00e4cker"
+        }
+    },
+    {
+        "code": "clothes",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Bekleidung"
+        }
+    },
+    {
+        "code": "bookstore",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Buchhandel"
+        }
+    },
+    {
+        "code": "fashion",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Mode"
+        }
+    },
+    {
+        "code": "officeSupplies",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "B\u00fcrobedarf"
+        }
+    },
+    {
+        "code": "directMarketed",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Direktvermarkter"
+        }
+    },
+    {
+        "code": "drugstore",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Drogeriemarkt"
+        }
+    },
+    {
+        "code": "bicyleDealership",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Fahrradh\u00e4ndler"
+        }
+    },
+    {
+        "code": "fish",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Fischh\u00e4ndler"
+        }
+    },
+    {
+        "code": "florist",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Florist"
+        }
+    },
+    {
+        "code": "hardwareStore",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Heimwerker- & Gartenmarkt"
+        }
+    },
+    {
+        "code": "toysHobbies",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Hobbies & Spielwaren"
+        }
+    },
+    {
+        "code": "farmerShop",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Hofladen"
+        }
+    },
+    {
+        "code": "beverages",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Getr\u00e4nkeh\u00e4ndler"
+        }
+    },
+    {
+        "code": "jewellery",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Juwelier"
+        }
+    },
+    {
+        "code": "cheeseDiary",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "K\u00e4serei"
+        }
+    },
+    {
+        "code": "store",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Kaufhaus"
+        }
+    },
+    {
+        "code": "wineCellars",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Kellereibetrieb"
+        }
+    },
+    {
+        "code": "mediaKiosk",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Kiosk"
+        }
+    },
+    {
+        "code": "pastryShop",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Konditorei"
+        }
+    },
+    {
+        "code": "artAntiquities",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Kunst & Antiquit\u00e4ten"
+        }
+    },
+    {
+        "code": "eatables",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Lebensmittel"
+        }
+    },
+    {
+        "code": "market",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Markt"
+        }
+    },
+    {
+        "code": "butcherShop",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Metzgerei"
+        }
+    },
+    {
+        "code": "furnitureHousewares",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "M\u00f6bel & Haushaltswaren"
+        }
+    },
+    {
+        "code": "fruitVegetables",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Obst & Gem\u00fcse"
+        }
+    },
+    {
+        "code": "optician",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Optiker"
+        }
+    },
+    {
+        "code": "outlet",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Outlet-Store"
+        }
+    },
+    {
+        "code": "souvenirs",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Souvenir"
+        }
+    },
+    {
+        "code": "sportsOutfitters",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Sportausr\u00fcstung"
+        }
+    },
+    {
+        "code": "ticketSales",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Ticketverkauf"
+        }
+    },
+    {
+        "code": "consumerElectronics",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Unterhaltungselektronik"
+        }
+    },
+    {
+        "code": "lawFirm",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Anwaltskanzlei"
+        }
+    },
+    {
+        "code": "architectureFirm",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Architekturb\u00fcro"
+        }
+    },
+    {
+        "code": "automobileIndustry",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Automobilindustrie"
+        }
+    },
+    {
+        "code": "constructionIndustry",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Bauwirtschaft"
+        }
+    },
+    {
+        "code": "miningIndustry",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Bergbau"
+        }
+    },
+    {
+        "code": "funeralParlour",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Bestattungsunternehmen"
+        }
+    },
+    {
+        "code": "flooringExperts",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Bodenleger"
+        }
+    },
+    {
+        "code": "distillery",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Brennerei"
+        }
+    },
+    {
+        "code": "brewery",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Brauerei"
+        }
+    },
+    {
+        "code": "bookBinder",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Buchbinder"
+        }
+    },
+    {
+        "code": "chemistry",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Chemiebranche"
+        }
+    },
+    {
+        "code": "copyShop",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Copyshop"
+        }
+    },
+    {
+        "code": "roofer",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Dachdecker"
+        }
+    },
+    {
+        "code": "electrician",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Elektroinstallateur"
+        }
+    },
+    {
+        "code": "energyTechnology",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Energietechnik"
+        }
+    },
+    {
+        "code": "eventHoster",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Reise- und Eventveranstalter"
+        }
+    },
+    {
+        "code": "electricalEngineering",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Elektrotechnik"
+        }
+    },
+    {
+        "code": "drivingSchoolPoi",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Fahrschule"
+        }
+    },
+    {
+        "code": "photographer",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Fotograf"
+        }
+    },
+    {
+        "code": "haircutter",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Friseur"
+        }
+    },
+    {
+        "code": "marketGarden",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Garten- & Landschaftsbauer"
+        }
+    },
+    {
+        "code": "landscapegardener",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "G\u00e4rtnerei"
+        }
+    },
+    {
+        "code": "industrialleaning",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Geb\u00e4udereinigung"
+        }
+    },
+    {
+        "code": "glazier",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Glaser"
+        }
+    },
+    {
+        "code": "goldsmith",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Goldschmied"
+        }
+    },
+    {
+        "code": "handcraft",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Handwerk"
+        }
+    },
+    {
+        "code": "estateAgent",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Immobilienmakler"
+        }
+    },
+    {
+        "code": "engineeringFirm",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Ingenieurb\u00fcro"
+        }
+    },
+    {
+        "code": "itCompanies",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "IT-Unternehmen"
+        }
+    },
+    {
+        "code": "chimneySweep",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Kaminkehrer"
+        }
+    },
+    {
+        "code": "cosmetics",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Kosmetikstudio"
+        }
+    },
+    {
+        "code": "agriculturalForestryFoodIndustries",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Land-, Forst-  & Ern\u00e4hrungswirtschaft"
+        }
+    },
+    {
+        "code": "aerospaceIndustry",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Luft- & Raumfahrtindustrie"
+        }
+    },
+    {
+        "code": "painterVarnisher",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Maler & Lackierer"
+        }
+    },
+    {
+        "code": "engineering",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Maschinenbau"
+        }
+    },
+    {
+        "code": "medicalTechnology",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Medizintechnik"
+        }
+    },
+    {
+        "code": "metalConstruction",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Metallbauer"
+        }
+    },
+    {
+        "code": "tiler",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Fliesenleger"
+        }
+    },
+    {
+        "code": "interiorDesigner",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Raumaustatter"
+        }
+    },
+    {
+        "code": "touristAgency",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Reiseb\u00fcro"
+        }
+    },
+    {
+        "code": "installerSanitaryHeatingFacilities",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Sanit\u00e4r- & Heizungsinstallateur"
+        }
+    },
+    {
+        "code": "locksmith",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Schlosser"
+        }
+    },
+    {
+        "code": "keyServices",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Schl\u00fcsseldienst"
+        }
+    },
+    {
+        "code": "tailor",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Schneider"
+        }
+    },
+    {
+        "code": "smithy",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Schmied"
+        }
+    },
+    {
+        "code": "carpenter",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Schreiner"
+        }
+    },
+    {
+        "code": "plumber",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Spengler"
+        }
+    },
+    {
+        "code": "stonemason",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Steinmetz"
+        }
+    },
+    {
+        "code": "technologyInnovationCentre",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Technologie- & Gr\u00fcnderzentrum"
+        }
+    },
+    {
+        "code": "veterinarian",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Tierarzt"
+        }
+    },
+    {
+        "code": "joiner",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Tischler"
+        }
+    },
+    {
+        "code": "environmentalTechnology",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Umwelttechnologie"
+        }
+    },
+    {
+        "code": "businessConsultancy",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Unternehmensberatung"
+        }
+    },
+    {
+        "code": "transportLogistics",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Verkehr & Logistik"
+        }
+    },
+    {
+        "code": "insurance",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Versicherung"
+        }
+    },
+    {
+        "code": "accountancyTaxConsultancy",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Wirtschaftspr\u00fcfer & Steuerberater"
+        }
+    },
+    {
+        "code": "journal",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Zeitung & Verlag"
+        }
+    },
+    {
+        "code": "woodCraftsman",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Zimmerer"
+        }
+    },
+    {
+        "code": "vocationalSchool",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Berufsschule"
+        }
+    },
+    {
+        "code": "educationalInstitution",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Bildungsst\u00e4tte"
+        }
+    },
+    {
+        "code": "primarySchool",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Grundschule"
+        }
+    },
+    {
+        "code": "grammarSchool",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Gymnasium"
+        }
+    },
+    {
+        "code": "secondarySchool",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Hauptschule"
+        }
+    },
+    {
+        "code": "college",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Hochschule"
+        }
+    },
+    {
+        "code": "childcare",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Kinderbetreuung"
+        }
+    },
+    {
+        "code": "kindergarten",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Kindergarten"
+        }
+    },
+    {
+        "code": "privateSchool",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Privatschule"
+        }
+    },
+    {
+        "code": "secondaryModernSchool",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Realschule"
+        }
+    },
+    {
+        "code": "specialSchool",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Sonderschule"
+        }
+    },
+    {
+        "code": "languageSchool",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Sprachschule"
+        }
+    },
+    {
+        "code": "university",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Universit\u00e4t"
+        }
+    },
+    {
+        "code": "adultEducationCentre",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Volkshochschule"
+        }
+    },
+    {
+        "code": "scientificFacility",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Wissenschaftliche Einrichtung"
+        }
+    },
+    {
+        "code": "commercialPremises",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Gewerbefl\u00e4che"
+        }
+    },
+    {
+        "code": "industrialPremises",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Industriefl\u00e4che"
+        }
+    },
+    {
+        "code": "mixedArea",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Mischgebiet"
+        }
+    },
+    {
+        "code": "specialArea",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Sondergebiet"
+        }
+    },
+    {
+        "code": "skiresort",
+        "attribute": "outdooractive_poi_category",
+        "labels": {
+            "de_DE": "Skigebiete"
+        }
+    }
+]

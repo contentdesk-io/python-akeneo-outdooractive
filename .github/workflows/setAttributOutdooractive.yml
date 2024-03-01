@@ -1,0 +1,79 @@
+name: Set Attribut Outdooractive
+
+on:
+  workflow_dispatch:
+    inputs:
+        environment:
+            description: 'Environment'
+            type: environment
+            required: true
+  push:
+    branches: [ master ]
+  # pull_request:
+  #  branches: [ master ]
+  # schedule:
+  #  - cron: "* 19 * * *" # every day at 19:00 UTC
+
+env:
+    AKENEO_HOST: ${{ secrets.AKENEO_HOST }}
+    AKENEO_CLIENT_ID: ${{ secrets.AKENEO_CLIENT_ID }}
+    AKENEO_CLIENT_SECRET: ${{ secrets.AKENEO_CLIENT_SECRET }}
+    AKENEO_USERNAME: ${{ secrets.AKENEO_USERNAME }}
+    AKENEO_PASSWORD: ${{ secrets.AKENEO_PASSWORD }}
+    S3_ENDPOINT: ${{ secrets.S3_ENDPOINT }}
+    S3_BUCKET: ${{ secrets.S3_BUCKET }}
+    S3_REGION: ${{ secrets.S3_REGION }}
+    S3_ACCESS_KEY: ${{ secrets.S3_ACCESS_KEY }}
+    S3_SECRET_ACCESS_KEY: ${{ secrets.S3_SECRET_ACCESS_KEY }}
+    S3_EXPORT_PATH: ${{ secrets.S3_EXPORT_PATH }}
+    CDN_ENDPOINT: ${{ secrets.CDN_ENDPOINT }}
+    OUTDOORACTIVE_KEY: ${{ secrets.OUTDOORACTIVE_KEY }}
+    OUTDOORACTIVE_SOURCE: ${{ secrets.OUTDOORACTIVE_SOURCE }}
+    OUTDOORACTIVE_OWNER: ${{ secrets.OUTDOORACTIVE_OWNER }}
+    OUTDOORACTIVE_OWNERNAME: ${{ secrets.OUTDOORACTIVE_OWNERNAME }}
+
+jobs:
+  build:
+    environment: ${{ inputs.environment }} 
+    name: Run Full Export ${{ inputs.environment }} 
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Create Virtual Environment
+        run: |
+            echo "${{ secrets.AKENEO_HOST }}" > .env
+            echo "${{ secrets.AKENEO_CLIENT_ID }}" > .env
+            echo "${{ secrets.AKENEO_CLIENT_SECRET }}" > .env
+            echo "${{ secrets.AKENEO_USERNAME }}" > .env
+            echo "${{ secrets.AKENEO_PASSWORD }}" > .env
+            echo "${{ secrets.S3_ENDPOINT }}" > .env
+            echo "${{ secrets.S3_BUCKET }}" > .env
+            echo "${{ secrets.S3_REGION }}" > .env
+            echo "${{ secrets.S3_ACCESS_KEY }}" > .env
+            echo "${{ secrets.S3_SECRET_ACCESS_KEY }}" > .env
+            echo "${{ secrets.S3_EXPORT_PATH }}" > .env
+            echo "${{ secrets.CDN_ENDPOINT }}" > .env
+            echo "${{ secrets.OUTDOORACTIVE_KEY }}" > .env
+            echo "${{ secrets.OUTDOORACTIVE_SOURCE }}" > .env
+            echo "${{ secrets.OUTDOORACTIVE_OWNER }}" > .env
+            echo "${{ secrets.OUTDOORACTIVE_OWNERNAME }}" > .env
+      - name: Install python-dotenv
+        run: pip install python-dotenv
+      - name: Install boto3
+        run: pip install boto3
+      - name: Install requests
+        run: pip install requests
+      - name: Install oauthlib
+        run: pip install oauthlib
+      - name: Install requests_oauthlib
+        run: pip install requests_oauthlib
+      - name: Install validators
+        run: pip install validators
+      - name: Install akeneo
+        run: pip install -i https://test.pypi.org/simple/ akeneo
+      - name: Run Script
+        working-directory: ./src
+        run: python setAttributOutdooractive.py
