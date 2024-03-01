@@ -17,15 +17,15 @@ def __main__():
    
    print("TRANSFORMING")
    # Save to JSON file Options
-   options = outdooractive.transformOptions(outdooractiveCategories)
+   #options = outdooractive.transformOptions(outdooractiveCategories)
    # Save to JSON file Categories
    # Save in Custom JSON Content-type 'application/vnd.akeneo.collection+json' with multiple lines   
-   with open('../examples/options.json', 'w') as file:
-        json.dump(options, file)
+   #with open('../examples/options.json', 'w') as file:
+   #     json.dump(options, file)
 
    print("LOADING")
    # Upload per Option
-   #load = outdooractive.loadAttributOption(outdooractiveCategories, "outdooractive_poi_category")
+   load = outdooractive.loadAttributOption(outdooractiveCategories, "outdooractive_poi_category")
    # One Upload with multiple lines
    #load = outdooractive.loadAttributOptions(outdooractiveCategories, "outdooractive_poi_category")
    print("DONE")
