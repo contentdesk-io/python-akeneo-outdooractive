@@ -35,7 +35,7 @@ env:
 jobs:
   build:
     environment: ${{ inputs.environment }} 
-    name: Run Full Export ${{ inputs.environment }} 
+    name: ${{ inputs.environment }} - Set Attribut Outdooractive 
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
