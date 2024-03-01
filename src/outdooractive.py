@@ -79,6 +79,7 @@ def loadAttributOption(outdooractiveCategories, attribut):
         AKENEO_PASSWORD
     )
 
+    i = 1
     for key, value in outdooractiveCategories.items():
         if key == "category":
             for category in value:
@@ -92,11 +93,13 @@ def loadAttributOption(outdooractiveCategories, attribut):
                             body = {
                                "code": attributeOptionCode,
                                "attribute": attribut,
+                               "sort_order": i,
                                "labels": {
                                    "de_DE": option["name"]
                                 }
                             }
                             response = akeneo.patchAttributOptionsByCode(attributeOptionCode, attribut, body)
+                            i = i + 1
                             print(response)
     print("FINSIHED - UPDATED ATTRIBUT OPTIONS") 
 
