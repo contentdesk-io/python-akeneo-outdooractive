@@ -66,7 +66,7 @@ def transformOptions(outdooractiveCategories):
                                "attribute": "outdooractive_poi_category",
                                "sort_order": i,
                                "labels": {
-                                   "de_DE": option["name"]
+                                   "de_CH": option["name"]
                                 }
                             }
                             updateOptions.append(body)
@@ -98,7 +98,7 @@ def loadAttributOption(outdooractiveCategories, attribut):
                                "attribute": attribut,
                                "sort_order": i,
                                "labels": {
-                                   "de_DE": option["name"]
+                                   "de_CH": option["name"]
                                 }
                             }
                             response = akeneo.patchAttributOptionsByCode(attributeOptionCode, attribut, body)
@@ -132,7 +132,7 @@ def loadAttributOptions(outdooractiveCategories, attribut):
                                "attribute": attribut,
                                "sort_order": i,
                                "labels": {
-                                   "de_DE": option["name"]
+                                   "de_CH": option["name"]
                                 }
                             }
                             updateOptions.append(body)
