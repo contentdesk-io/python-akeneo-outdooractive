@@ -51,6 +51,7 @@ def getPOICategories():
 def transformOptions(outdooractiveCategories):
     # create json with multiple lines for each option
     updateOptions = []
+    i = 1
     for key, value in outdooractiveCategories.items():
         if key == "category":
             for category in value:
@@ -63,11 +64,13 @@ def transformOptions(outdooractiveCategories):
                             body = {
                                "code": attributeOptionCode,
                                "attribute": "outdooractive_poi_category",
+                               "sort_order": i,
                                "labels": {
                                    "de_DE": option["name"]
                                 }
                             }
                             updateOptions.append(body)
+                            i = i + 1
     return updateOptions
 
 def loadAttributOption(outdooractiveCategories, attribut):
@@ -114,6 +117,7 @@ def loadAttributOptions(outdooractiveCategories, attribut):
 
     # create json with multiple lines for each option
     updateOptions = []
+    i = 1
     for key, value in outdooractiveCategories.items():
         if key == "category":
             for category in value:
@@ -126,12 +130,13 @@ def loadAttributOptions(outdooractiveCategories, attribut):
                             body = {
                                "code": attributeOptionCode,
                                "attribute": attribut,
+                               "sort_order": i,
                                "labels": {
                                    "de_DE": option["name"]
                                 }
                             }
                             updateOptions.append(body)
-
+                            i = i + 1
                             ##response = akeneo.patchAttributOptionsByCode(attributeOptionCode, attribut, body)
                             #print(response)
 
