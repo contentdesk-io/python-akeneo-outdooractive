@@ -3,7 +3,7 @@ name: Set Outdooractive Ziggy
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 19 * 1-12 6" # every day at 19:00 UTC
+    - cron: "0 10 * 1-12 6" # At 10:00 on Saturday in every month from January through December
 
 env:
     AKENEO_HOST: ${{ secrets.AKENEO_HOST }}

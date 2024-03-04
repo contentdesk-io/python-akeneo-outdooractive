@@ -13,6 +13,7 @@ AKENEO_CLIENT_ID = getenv('AKENEO_CLIENT_ID')
 AKENEO_CLIENT_SECRET = getenv('AKENEO_CLIENT_SECRET')
 AKENEO_USERNAME = getenv('AKENEO_USERNAME')
 AKENEO_PASSWORD = getenv('AKENEO_PASSWORD')
+OUTDOORACTIVE_API_KEY= getenv('OUTDOORACTIVE_API_KEY')
 
 def getAkeneoProducts():
   akeneo = Akeneo(
@@ -36,7 +37,7 @@ def getAkeneoProduct(identifier):
   return akeneo.getProductByCode(identifier)
 
 def getPOICategories():
-    url = "https://www.outdooractive.com/api/project/api-dev-oa/category/tree/poi?key=yourtest-outdoora-ctiveapi&lang=de"
+    url = "https://www.outdooractive.com/api/project/api-dev-oa/category/tree/poi?key="+OUTDOORACTIVE_API_KEY+"&lang=de"
 
     response = requests.get(url, headers={"Accept": "application/json"})
 
