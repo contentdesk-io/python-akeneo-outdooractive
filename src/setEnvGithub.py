@@ -82,6 +82,7 @@ def getSecrets(environment):
     env_vars['OUTDOORACTIVE_SOURCE'] = getenv('OUTDOORACTIVE_SOURCE')
     env_vars['OUTDOORACTIVE_OWNER'] = getenv('OUTDOORACTIVE_OWNER')
     env_vars['OUTDOORACTIVE_OWNERNAME'] = getenv('OUTDOORACTIVE_OWNERNAME')
+    env_vars['OUTDOORACTIVE_API_KEY'] = getenv('OUTDOORACTIVE_API_KEY')
     env_vars['S3_ENDPOINT'] = getenv('S3_ENDPOINT')
     env_vars['S3_BUCKET'] = getenv('S3_BUCKET')
     env_vars['S3_REGION'] = getenv('S3_REGION')
