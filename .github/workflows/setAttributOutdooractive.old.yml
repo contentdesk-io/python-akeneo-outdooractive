@@ -1,12 +1,18 @@
 name: Set Attribut Outdooractive
 
 on:
-  workflow_call:
+  workflow_dispatch:
     inputs:
         environment:
             description: 'Environment'
-            type: string
+            type: environment
             required: true
+  push:
+    branches: [ master ]
+  # pull_request:
+  #  branches: [ master ]
+  # schedule:
+  #  - cron: "* 19 * * *" # every day at 19:00 UTC
 
 env:
     AKENEO_HOST: ${{ secrets.AKENEO_HOST }}
