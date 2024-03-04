@@ -1,4 +1,4 @@
-name: Set Attribut Outdooractive
+name: Set Attribut Outdooractive OLD
 
 on:
   workflow_dispatch:
