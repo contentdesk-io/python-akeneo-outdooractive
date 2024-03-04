@@ -1,34 +1,41 @@
 name: Set Attribut Outdooractive
 
 on:
-  workflow_call:
+  workflow_dispatch:
     inputs:
-      variable_environment:
-        description: 'Environment'
-        type: string
-        required: true
+        environment:
+            description: 'Environment'
+            type: environment
+            required: true
+  push:
+    branches: [ master ]
+  # pull_request:
+  #  branches: [ master ]
+  # schedule:
+  #  - cron: "* 19 * * *" # every day at 19:00 UTC
+
+env:
+    AKENEO_HOST: ${{ secrets.AKENEO_HOST }}
+    AKENEO_CLIENT_ID: ${{ secrets.AKENEO_CLIENT_ID }}
+    AKENEO_CLIENT_SECRET: ${{ secrets.AKENEO_CLIENT_SECRET }}
+    AKENEO_USERNAME: ${{ secrets.AKENEO_USERNAME }}
+    AKENEO_PASSWORD: ${{ secrets.AKENEO_PASSWORD }}
+    S3_ENDPOINT: ${{ secrets.S3_ENDPOINT }}
+    S3_BUCKET: ${{ secrets.S3_BUCKET }}
+    S3_REGION: ${{ secrets.S3_REGION }}
+    S3_ACCESS_KEY: ${{ secrets.S3_ACCESS_KEY }}
+    S3_SECRET_ACCESS_KEY: ${{ secrets.S3_SECRET_ACCESS_KEY }}
+    S3_EXPORT_PATH: ${{ secrets.S3_EXPORT_PATH }}
+    CDN_ENDPOINT: ${{ secrets.CDN_ENDPOINT }}
+    OUTDOORACTIVE_KEY: ${{ secrets.OUTDOORACTIVE_KEY }}
+    OUTDOORACTIVE_SOURCE: ${{ secrets.OUTDOORACTIVE_SOURCE }}
+    OUTDOORACTIVE_OWNER: ${{ secrets.OUTDOORACTIVE_OWNER }}
+    OUTDOORACTIVE_OWNERNAME: ${{ secrets.OUTDOORACTIVE_OWNERNAME }}
 
 jobs:
   build:
-    name: ${{ inputs.variable_environment }} - Set Attribut Outdooractive
-    environment: ${{ inputs.variable_environment }}
-    env:
-      AKENEO_HOST: ${{ secrets.AKENEO_HOST }}
-      AKENEO_CLIENT_ID: ${{ secrets.AKENEO_CLIENT_ID }}
-      AKENEO_CLIENT_SECRET: ${{ secrets.AKENEO_CLIENT_SECRET }}
-      AKENEO_USERNAME: ${{ secrets.AKENEO_USERNAME }}
-      AKENEO_PASSWORD: ${{ secrets.AKENEO_PASSWORD }}
-      S3_ENDPOINT: ${{ secrets.S3_ENDPOINT }}
-      S3_BUCKET: ${{ secrets.S3_BUCKET }}
-      S3_REGION: ${{ secrets.S3_REGION }}
-      S3_ACCESS_KEY: ${{ secrets.S3_ACCESS_KEY }}
-      S3_SECRET_ACCESS_KEY: ${{ secrets.S3_SECRET_ACCESS_KEY }}
-      S3_EXPORT_PATH: ${{ secrets.S3_EXPORT_PATH }}
-      CDN_ENDPOINT: ${{ secrets.CDN_ENDPOINT }}
-      OUTDOORACTIVE_KEY: ${{ secrets.OUTDOORACTIVE_KEY }}
-      OUTDOORACTIVE_SOURCE: ${{ secrets.OUTDOORACTIVE_SOURCE }}
-      OUTDOORACTIVE_OWNER: ${{ secrets.OUTDOORACTIVE_OWNER }}
-      OUTDOORACTIVE_OWNERNAME: ${{ secrets.OUTDOORACTIVE_OWNERNAME }}
+    environment: ${{ inputs.environment }} 
+    name: ${{ inputs.environment }} - Set Attribut Outdooractive 
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
