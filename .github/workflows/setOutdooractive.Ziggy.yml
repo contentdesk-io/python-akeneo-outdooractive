@@ -9,4 +9,4 @@ jobs:
     name: Set Attribut Outdooractive
     uses: ./.github/workflows/setAttributOutdooractive.yml
     with:
-      environment: ziggy
+      variable_environment: ziggy

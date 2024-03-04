@@ -5,7 +5,7 @@ on:
     inputs:
       variable_environment:
         description: 'Environment'
-        type: string
+        type: environment
         required: true
 
 env:
