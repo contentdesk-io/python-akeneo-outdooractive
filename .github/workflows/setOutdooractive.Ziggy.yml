@@ -2,11 +2,11 @@ name: Set Outdooractive Ziggy
 
 on:
   schedule:
-  - cron: "* 19 * * *" # every day at 19:00 UTC
+  - cron: "0 19 * 1-12 6"
 
 jobs:
   deploy:
       name: Set Attribut Outdooractive
-      uses: ./.github/workflows/setAttributeOutdooractive.yml
+      uses: ./.github/workflows/setAttributOutdooractive.yml
       with:
         environment: ziggy
