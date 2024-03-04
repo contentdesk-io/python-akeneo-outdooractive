@@ -31,4 +31,4 @@ jobs:
       name: Set Attribut Outdooractive
       uses: ./.github/workflows/setAttributOutdooractive.yml
       with:
-        environment: ${{ inputs.environment }}
+        variable_environment: ${{ inputs.environment }}

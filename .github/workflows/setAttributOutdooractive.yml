@@ -3,10 +3,10 @@ name: Set Attribut Outdooractive
 on:
   workflow_call:
     inputs:
-        environment:
-            description: 'Environment'
-            type: environment
-            required: true
+      variable_environment:
+        description: 'Environment'
+        type: string
+        required: true
 
 env:
     AKENEO_HOST: ${{ secrets.AKENEO_HOST }}
@@ -28,8 +28,8 @@ env:
 
 jobs:
   build:
-    environment: ${{ inputs.environment }} 
-    name: ${{ inputs.environment }} - Set Attribut Outdooractive 
+    environment: ${{ inputs.variable_environment }} 
+    name: ${{ inputs.variable_environment }} - Set Attribut Outdooractive 
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
